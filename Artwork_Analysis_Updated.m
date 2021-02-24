@@ -2,11 +2,6 @@
 %%PCA for euclidian distance measures (similarity links) for artwork to
 %%artwork network
 
-% As of 12/9/2019: This program is built to analize artwork-artwork
-% interactions with euclidian distance similarity links; Raw data is prone
-% to error and needs to be checked; will make further sophistication to the
-% network ability, linkage importance proof and dynamic interactions.
-
 %Read table and call urls for images -> RBG matrices
 
 full_table = readtable('moma_parsed_new.xlsx'); % *(NEED TO RECHECK RAW DATA AND CORRECT ERRORS)*
