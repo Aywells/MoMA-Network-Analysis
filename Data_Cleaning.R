@@ -1,4 +1,4 @@
-setwd('C:/Users/aywel/Desktop/Physics/Complex Networks/Project/Code')
+setwd('C:/Users/aywel/Desktop')
 
 library(xopen)
 library(readxl)
