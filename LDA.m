@@ -25,8 +25,7 @@
 % % Calculate class probabilities
 % P = exp(L) ./ repmat(sum(exp(L),2),[1 2]);
 %
-%
-% Last modified: Dec-11-2010
+
 function W = LDA(Input,Target,Priors)
 % Determine size of input data
 [n m] = size(Input);
